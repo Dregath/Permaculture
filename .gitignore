@@ -24,6 +24,10 @@
 /*.iws
 /atlassian-ide-plugin.xml
 
-# Mac Stuff
+# Mac
 .DS_Store
 *.command
+
+## Windows
+Thumbs.db
+Desktop.ini

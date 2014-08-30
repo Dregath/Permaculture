@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Permaculture",
+  "name": "Permaculture",
+  "description": "Permaculture for Minecraft",
+  "version": "0.1",
+  "mcversion": "1.7.10",
+  "url": "www.dregath.com/permaculture",
+  "updateUrl": "",
+  "authorList": [
+    "Dregath","Ellybelly"
+  ],
+  "credits": "",
+  "logoFile": "/assets/permaculture/textures/mcmod.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
