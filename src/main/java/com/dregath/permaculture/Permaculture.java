@@ -1,6 +1,7 @@
 package com.dregath.permaculture;
 
 import com.dregath.permaculture.handler.ConfigurationHandler;
+import com.dregath.permaculture.init.ModBlocks;
 import com.dregath.permaculture.init.ModItems;
 import com.dregath.permaculture.proxy.IProxy;
 import com.dregath.permaculture.reference.Reference;
@@ -29,6 +30,8 @@ public class Permaculture
         LogHelper.info("Pre Initialization Complete");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler

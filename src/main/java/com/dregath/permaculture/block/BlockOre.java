@@ -1,15 +1,13 @@
-package com.dregath.permaculture.item;
+package com.dregath.permaculture.block;
 
 import com.dregath.permaculture.creativetab.CreativeTabBase;
 
-public class ItemIngot extends ItemBase
+public class BlockOre extends BlockBase
 {
-    public ItemIngot ()
+    public BlockOre()
     {
         super();
-        this.setUnlocalizedName("ingotCobalt");
+        this.setBlockName("oreCobalt");
         this.setCreativeTab(CreativeTabBase.PERMACULTURE_TAB);
     }
-
-
 }
